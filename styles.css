@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("images/connected.webp");
+    background-repeat: no-repeat;
+    background-size:cover;
+    opacity:.7;
+}
+header{
+    display:flex;
+    justify-content: space-around;
+    height: 6rem;
+    width:100%;
+    border:2px;
+    background-color: rgb(52, 50, 50);
+}
+.cascade{
+    border: 2px solid white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-weight: bolder;
+    height: 4rem;
+    width:13vw;
+    margin-top: 1rem;
+    font-size: 2rem;
+    border-bottom: 3px dotted black;
+}
+.anchor{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.anchor > a{
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-left: 4rem;  
+}
+.anchor a:first-child{
+    background-color: red;
+    padding: .4rem;
+}
+
+.header-tag-1{
+    text-align: center;
+    color:maroon;
+    font-size: 5rem;
+    margin-top: 3rem;
+}
+
+.header-tag-2{
+    text-align: center;
+    color:pink;
+    font-size: 5rem;
+    margin-top: 1.5rem;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons > button{
+    padding: 1rem;
+    border-radius: 0 100px 0 100px;
+    color:white;
+    background-color: red;
+    font-weight:bolder;
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+    margin-left: 2.5rem;
+} 
